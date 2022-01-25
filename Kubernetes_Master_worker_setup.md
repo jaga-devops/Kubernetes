@@ -114,6 +114,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 kubectl apply -f https://docs.projectcalico.org/v3.9/manifests/calico.yaml
 
+INSTEAD OF ABOVE AS THE CALICO.yml FILE IS UPDATED IN V20 SO WE ARE USING BELOW
+kubectl apply -f https://docs.projectcalico.org/v3.20/manifests/calico.yaml
+
 ```
 
 
